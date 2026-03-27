@@ -1,75 +1,162 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Films - Kent Lamm</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      line-height: 1.5;
-    }
-    nav {
-      display: flex;
-      gap: 20px;
-      margin-bottom: 50px;
-    }
-    nav a {
-      text-decoration: none;
-      color: black;
-    }
-    .project {
-      margin-bottom: 40px;
-    }
-    .meta {
-      color: #666;
-      margin-bottom: 8px;
-    }
-  </style>
-</head>
-<body>
-  <nav>
+---
+layout: default
+title: Films - Kent Lamm
+---
+
+<style>
+  body {
+    text-align: justify;
+    font-family: Sans-Serif;
+    font-size: medium;
+  }
+
+  .main {
+    max-width: 800px;
+    margin: 0 auto;
+    word-wrap: break-word;
+  }
+
+  p {
+    text-indent: 30px;
+    font-size: medium;
+  }
+
+  .topnav {
+    text-align: center;
+    margin: 20px 0 30px;
+  }
+
+  .topnav a {
+    margin: 0 12px;
+  }
+
+  .portfolio-item {
+    margin: 0 auto 48px;
+    text-align: center;
+  }
+
+  .portfolio-item iframe {
+    max-width: 100%;
+  }
+
+  .video-embed {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 12px;
+  }
+
+  .video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+</style>
+
+<div class="main">
+  <hr>
+
+  <div class="topnav">
     <a href="/editing.html">editing</a>
     <a href="/films.html">films</a>
     <a href="/about/">about</a>
-  </nav>
+  </div>
 
-  <header>
-    <h1>Films</h1>
-    <p>Original narrative work as writer, director, editor, and producer.</p>
-  </header>
+  <h1 style="text-align:center;">films</h1>
 
-  <section class="project">
-    <h2>The Lost Fortune of Oliver Brody</h2>
-    <div class="meta">short film</div>
-  </section>
+  <div class="portfolio-item">
+    <div class="video-embed">
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/9394YguywxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <center>
+      <b>The Lost Fortune of Oliver Brody</b><br>
+      2026 short film (coming soon)<br>
+      director / writer / editor / producer<br><br>
+    </center>
+  </div>
 
-  <section class="project">
-    <h2>Will "The Machine"</h2>
-    <div class="meta">dramatic short film</div>
-  </section>
+  <div class="portfolio-item">
+    <div class="video-embed">
+      <iframe src="https://player.vimeo.com/video/302539186" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <center>
+      <b>Will "The Machine"</b><br>
+      2019 dramatic short film (full film <a href="https://youtu.be/5Ziuk7D71eo" target="_blank">here</a>)<br>
+      director / writer / editor / producer<br>
+      +3m views<br>
+      <a href="http://www.willthemachine.com">website</a><br><br>
+    </center>
+  </div>
 
-  <section class="project">
-    <h2>Datsuzoku</h2>
-    <div class="meta">short film</div>
-  </section>
+  <div class="portfolio-item">
+    <div class="video-embed">
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/rQGjEUJqiNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <center>
+      <b>Datsuzoku</b><br>
+      2023 short film<br>
+      director / writer / editor / producer / lead<br><br>
+    </center>
+  </div>
 
-  <section class="project">
-    <h2>The Little Helpers</h2>
-    <div class="meta">horror short film</div>
-  </section>
+  <div class="portfolio-item">
+    <div class="video-embed">
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/3xElT4XV7H0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <center>
+      <b>The Little Helpers</b><br>
+      2022 horror short film<br>
+      director / writer / dp / editor / producer<br><br>
+    </center>
+  </div>
 
-  <section class="project">
-    <h2>Hawaii</h2>
-    <div class="meta">dramatic short film</div>
-  </section>
+  <div class="portfolio-item">
+    <div class="video-embed">
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/B23SHgreFHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <center>
+      <b>Hawaii</b><br>
+      2019 dramatic short film<br>
+      director / writer / dp / editor / producer<br><br>
+    </center>
+  </div>
 
-  <section class="project">
-    <h2>Bad is Bad</h2>
-    <div class="meta">feature film</div>
-  </section>
-</body>
-</html>
+  <div class="portfolio-item">
+    <div class="video-embed">
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/1VdFCiDpSdU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <center>
+      <b>Last Laugh Inc.</b><br>
+      2022 comedy short film<br>
+      director / writer / dp / editor / producer<br><br>
+    </center>
+  </div>
+
+  <div class="portfolio-item">
+    <div class="video-embed">
+      <iframe width="640" height="360" src="https://www.youtube.com/embed/tdnn5MMwsRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <center>
+      <b>Low Hanging Friends - Episode 1</b><br>
+      2020 stop motion animation series<br>
+      creator / lead<br><br>
+    </center>
+  </div>
+
+  <div class="portfolio-item">
+    <div class="video-embed">
+      <iframe src="https://player.vimeo.com/video/15477681" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <center>
+      <b>Bad is Bad</b><br>
+      2010 drama/thriller feature film (full film <a href="https://www.youtube.com/watch?v=gPN7UEWJ6VI" target="_blank">here</a>)<br>
+      director / writer / editor / producer<br>
+      +6m views, $6k budget<br><br>
+    </center>
+  </div>
+</div>
